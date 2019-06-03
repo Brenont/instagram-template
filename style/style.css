@@ -1,0 +1,35 @@
+/* SECTION */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* classe de posicionamento */
+.flex{
+    display: flex;
+}
+.flex-between{
+    justify-content: space-between; 
+}
+.align-center{
+    align-items: center;
+}
+.flex-center{
+    justify-content:center;
+    align-items: center;
+}
+
+/* estilo da timeline */
+#timeline .user-total{
+    padding: 10px 10px;
+    background-color: #fafafa;
+    color: #262626;
+}
+#timeline .user-name{
+    /* color: #262626; */
+}
+#timeline .user-img{
+    max-width: 50px;
+    max-height: 50px;
+}
+
