@@ -2,6 +2,8 @@
 *{
     margin: 0;
     padding: 0;
+    background-color: #fafafa;
+
 }
 
 /* classe de posicionamento */
@@ -14,9 +16,8 @@
 .align-center{
     align-items: center;
 }
-.flex-j-content{
-    display: flex;
-    justify-content: space-between;
+.flex-align-end{
+    align-items: flex-end;
 }
 .flex-center{
     justify-content:center;
@@ -27,9 +28,10 @@
 }
 /* estilo da timeline */
 #timeline .user-total{
-    padding: 5px 15px;
+    padding: 3px 15px;
     background-color: #fafafa;
     color: #262626;
+    border: solid 1px #efefef;
 }
 #timeline .user-name{
     padding-left: 7px;
@@ -42,8 +44,8 @@
 }
 #timeline .border-linear{
     position: relative;
-    width: 200px;
-    height: 200px;
+    width: 40px;
+    height: 40px;
     background-image: linear-gradient(60deg, #ff2, #f06, #90c)
 }
 #timeline .icon-point{
@@ -54,8 +56,18 @@
     max-width:320px;
     max-height: 320px;
 }
-#timeline .icons-3{
+#timeline .div-teste{
+    border: solid 1px #efefef;
+    
+}
+#timeline .icons-4{
     padding: 7px;
+    background-color: #fafafa;
+    font-size: 23px;
+    color: #000000;
+}
+#timeline .icons-3{
+    padding: 1px;
 }
 #timeline .padding-left{
     padding-left: 7 px;
@@ -64,9 +76,12 @@
     padding: 5px;
     background-color: #fafafa;
 }
-.letra-italica{
+.padding{
+    padding: 5px;
+}
+#timeline .letra-italica{
     color: #999999;
 }
-.letra-texto{
+#timeline .letra-texto{
     color:#000000;
 }
