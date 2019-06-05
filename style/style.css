@@ -76,6 +76,9 @@
     padding: 5px;
     background-color: #fafafa;
 }
+#timeline b{
+    margin: 3px;
+}
 .padding{
     padding: 5px;
 }
@@ -84,4 +87,7 @@
 }
 #timeline .letra-texto{
     color:#000000;
+}
+@media sreen and (max-width:1024) {
+    
 }
