@@ -27,7 +27,7 @@
 }
 /* estilo da timeline */
 #timeline .user-total{
-    padding: 10px 10px;
+    padding: 5px 15px;
     background-color: #fafafa;
     color: #262626;
 }
@@ -58,5 +58,15 @@
     padding: 7px;
 }
 #timeline .padding-left{
-    padding-left: 7px;
+    padding-left: 7 px;
+}
+#timeline .comments{
+    padding: 5px;
+    background-color: #fafafa;
+}
+.letra-italica{
+    color: #999999;
+}
+.letra-texto{
+    color:#000000;
 }
