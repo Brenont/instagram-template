@@ -31,17 +31,17 @@
 #timeline .dad{
     background-color:#efefef;
 }
- section{
-    border: solid 1px #efefef;
 }
-#timeline .user-total {
-    padding: 3px 15px;
+#timeline .user-total{
+    padding: 5px 15px;
     background-color: #ffffff;
     color: #262626;
- 
 }
 #timeline .user-name {
     padding-left: 7px;
+}
+#timeline div.user-total{
+    padding: 5px;   
 }
 #timeline .user-img {
     max-width: 53px;
@@ -84,7 +84,7 @@
 #timeline b {
     margin: 3px;
 }
-.padding {
+#timeline.padding {
     padding: 5px;
 }
 #timeline .letra-italica {
@@ -94,6 +94,9 @@
     color: #000000;
 }
 @media screen and (min-width:700px) {
+    #timeline{
+        border: solid 1px #efefef;
+    }
     .dad {
         display: flex;
         justify-content: center;
@@ -128,7 +131,7 @@
 #login .inputs {
     padding: 17px;
     padding-right: 55px;
-    margin: 7px;
+    margin: 3px;
     border: solid 3px #efefef;
     font-size: 13px;
     border-radius: 5px;
@@ -143,23 +146,13 @@
     background-color: #3897f0;
     color: #fff;
     border:none;
+    margin: 7px;
 }
-#login .button-play {
-    border-radius: 7px;
-    padding-bottom: 20px;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-left: 20px;
-    border: solid 3px #efefef;
-    color: #fff;
-    background-color: #252323;
+#login .img-playstore{
+    height: 50px;
+    margin: 30px;
 }
-#login i {
-    color: #262626;
-}
-.button-play:focus,
-.button-end-input:focus,
-.inputs:focus {
+.button-play:focus, .button-end-input:focus,.inputs:focus,{
     outline: none;
 }
 
@@ -171,22 +164,17 @@
     #login .inputs {
         padding: 17px;
         padding-right: 157px;
-        margin: 10px;
+        margin: 5px;
         font-size: 15px;
     }
     #login .button-end-input {
         font-size: 17px;
-        padding-left: 163px;
+        padding-left: 161px;
         padding-top: 7px;
         padding-bottom: 7px;
-        padding-right: 163px;
+        padding-right: 161px;
     }
-    #login .button-play {
-        padding-bottom: 25px;
-        padding-top: 25px;
-        padding-right: 40px;
-        padding-left: 40px;
+    #login .img-playstore{
+        height: 70px;
     }
-    #login i {
-        font-size: 20px;
-    }
+   
