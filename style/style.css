@@ -31,11 +31,14 @@
 #timeline .dad{
     background-color:#efefef;
 }
+ section{
+    border: solid 1px #efefef;
+}
 #timeline .user-total {
     padding: 3px 15px;
     background-color: #ffffff;
     color: #262626;
-    border: solid 1px #efefef;
+ 
 }
 #timeline .user-name {
     padding-left: 7px;
@@ -44,7 +47,7 @@
     max-width: 53px;
     max-height: 53px;
     border-radius: 100%;
-    border: solid 2px #efefef;
+    border: solid 1px #efefef;
 }
 #timeline .border-linear {
     width: 40px;
@@ -60,7 +63,6 @@
     width: 100%;
 }
 #timeline .div-teste {
-    border: solid 1px #efefef;
     background-color: #ffffff;
 }
 #timeline .icons-4 {
