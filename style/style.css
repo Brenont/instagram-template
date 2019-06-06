@@ -112,6 +112,10 @@
 #login{
     color: #fafafa;
 }
+#login footer{
+    padding-right: 15px;
+    margin: 40px;
+}
 #login .title{
     font-size: 45px;
     margin: 50px;
@@ -120,8 +124,7 @@
 }
 #login .inputs{
     padding: 17px;
-    padding-left: 37px;
-    padding-right: 37px;
+    padding-right: 55px;
     margin: 7px;
     border: solid 3px #efefef;
     font-size: 13px;
@@ -137,10 +140,6 @@
     color: #fff;
     border: solid 3px #efefef;
 }
-#login footer{
-    padding-right: 15px;
-    margin: 40px;
-}
 #login .button-play{
     border-radius: 7px;
     padding-bottom: 20px;
@@ -154,3 +153,32 @@
 #login i{
     color: #262626;
 }
+.button-play:focus, .button-end-input:focus, .inputs:focus{
+    outline: none;
+}
+@media screen and (min-width:700px) {
+    #login .title{
+        font-size: 65px;
+    }
+    #login .inputs{
+        padding: 17px;
+        padding-right: 157px;
+        margin: 10px;
+        font-size: 15px;
+    }
+    #login .button-end-input{
+        font-size: 17px;
+        padding-left: 163px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        padding-right: 163px;
+    }
+    #login .button-play{
+        padding-bottom: 25px;
+        padding-top: 25px;
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    #login i{
+        font-size: 20px;
+    }
