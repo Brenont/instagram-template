@@ -40,21 +40,21 @@
     max-width: 53px;
     max-height: 53px; 
     border-radius: 100%;
-    border: solid 2px transparent;
+    border: solid 2px #efefef;
 }
 #timeline .border-linear{
-    position: relative;
     width: 40px;
     height: 40px;
-    background-image: linear-gradient(60deg, #ff2, #f06, #90c)
+    /* background-image: linear-gradient(60deg, #ff2, #f06, #90c) */
 }
 #timeline .icon-point{
     color: #262626;
     font-size: 15px;
 }
 #timeline .img-tl{
-    max-width:320px;
-    max-height: 320px;
+    max-width:670px;
+    width: 100%;
+    border: solid 2px #efefef;
 }
 #timeline .div-teste{
     border: solid 1px #efefef;
@@ -88,6 +88,13 @@
 #timeline .letra-texto{
     color:#000000;
 }
-@media sreen and (max-width:1024) {
+@media screen and (min-width:700px) {
+   .user-total{
+      width: 640px;
+     
+   }
+   .div-teste{
+       width: 670px;
+   }
     
 }
