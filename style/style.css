@@ -89,12 +89,19 @@
     color:#000000;
 }
 @media screen and (min-width:700px) {
+    .dad{
+        display: flex;
+        justify-content:center;
+    }
    .user-total{
       width: 640px;
-     
+
    }
    .div-teste{
        width: 670px;
    }
-    
+   .border-linear{
+       width: 55px;
+       height: 55px;
+    }
 }
