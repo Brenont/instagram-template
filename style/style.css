@@ -1,146 +1,172 @@
 /* SECTION */
-*{
+
+* {
     margin: 0;
     padding: 0;
     background-color: #fafafa;
-
 }
 
 /* classe de posicionamento */
-.flex{
+
+.flex {
     display: flex;
 }
-.flex-between{
-    justify-content: space-between; 
+
+.flex-between {
+    justify-content: space-between;
 }
-.align-center{
+
+.align-center {
     align-items: center;
 }
-.flex-align-end{
+
+.flex-align-end {
     align-items: flex-end;
 }
-.flex-center{
-    justify-content:center;
+
+.flex-center {
+    justify-content: center;
     align-items: center;
 }
-.flex-column{
+
+.flex-column {
     flex-direction: column;
 }
 
-
 /* estilo da timeline */
-#timeline .user-total{
+
+#timeline .user-total {
     padding: 3px 15px;
     background-color: #fafafa;
     color: #262626;
     border: solid 1px #efefef;
 }
-#timeline .user-name{
+
+#timeline .user-name {
     padding-left: 7px;
 }
-#timeline .user-img{
+
+#timeline .user-img {
     max-width: 53px;
-    max-height: 53px; 
+    max-height: 53px;
     border-radius: 100%;
     border: solid 2px #efefef;
 }
-#timeline .border-linear{
+
+#timeline .border-linear {
     width: 40px;
     height: 40px;
     /* background-image: linear-gradient(60deg, #ff2, #f06, #90c) */
 }
-#timeline .icon-point{
+
+#timeline .icon-point {
     color: #262626;
     font-size: 15px;
 }
-#timeline .img-tl{
-    max-width:670px;
+
+#timeline .img-tl {
+    max-width: 670px;
     width: 100%;
     border: solid 2px #efefef;
 }
-#timeline .div-teste{
+
+#timeline .div-teste {
     border: solid 1px #efefef;
-    
 }
-#timeline .icons-4{
+
+#timeline .icons-4 {
     padding: 7px;
     background-color: #fafafa;
     font-size: 23px;
     color: #000000;
 }
-#timeline .icons-3{
+
+#timeline .icons-3 {
     padding: 1px;
 }
-#timeline .padding-left{
+
+#timeline .padding-left {
     padding-left: 7 px;
 }
-#timeline .comments{
+
+#timeline .comments {
     padding: 5px;
     background-color: #fafafa;
 }
-#timeline b{
+
+#timeline b {
     margin: 3px;
 }
-.padding{
+
+.padding {
     padding: 5px;
 }
-#timeline .letra-italica{
+
+#timeline .letra-italica {
     color: #999999;
 }
-#timeline .letra-texto{
-    color:#000000;
-}
-@media screen and (min-width:700px) {
-    .dad{
-        display: flex;
-        justify-content:center;
-    }
-   .user-total{
-      width: 640px;
 
-   }
-   .div-teste{
-       width: 670px;
-   }
-   .border-linear{
-       width: 55px;
-       height: 55px;
+#timeline .letra-texto {
+    color: #000000;
+}
+
+@media screen and (min-width:700px) {
+    .dad {
+        display: flex;
+        justify-content: center;
+    }
+    .user-total {
+        width: 640px;
+    }
+    .div-teste {
+        width: 670px;
+    }
+    .border-linear {
+        width: 55px;
+        height: 55px;
     }
 }
 
 /* login */
-#login{
+
+#login {
     color: #fafafa;
 }
-#login footer{
+
+#login footer {
     padding-right: 15px;
     margin: 40px;
 }
-#login .title{
-    font-size: 45px;
-    margin: 50px;
+
+#login .title {
+    height: 60px;
+    margin: 40px;
     font-family: 'Pacifico', cursive;
     color: #252323;
 }
-#login .inputs{
+
+#login .inputs {
     padding: 17px;
     padding-right: 55px;
     margin: 7px;
     border: solid 3px #efefef;
     font-size: 13px;
+    border-radius: 5px;
 }
-#login .button-end-input{
-    border-radius: 8px;
+
+#login .button-end-input {
+    border-radius: 5px;
     font-size: 17px;
     padding-left: 100px;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-right: 100px;
-    background-color: #89abd8;
+    background-color: #3897f0;
     color: #fff;
-    border: solid 3px #efefef;
+    border:none;
 }
-#login .button-play{
+
+#login .button-play {
     border-radius: 7px;
     padding-bottom: 20px;
     padding-top: 20px;
@@ -150,35 +176,40 @@
     color: #fff;
     background-color: #252323;
 }
-#login i{
+
+#login i {
     color: #262626;
 }
-.button-play:focus, .button-end-input:focus, .inputs:focus{
+
+.button-play:focus,
+.button-end-input:focus,
+.inputs:focus {
     outline: none;
 }
+
 @media screen and (min-width:700px) {
-    #login .title{
+    #login .title {
         font-size: 65px;
     }
-    #login .inputs{
+    #login .inputs {
         padding: 17px;
         padding-right: 157px;
         margin: 10px;
         font-size: 15px;
     }
-    #login .button-end-input{
+    #login .button-end-input {
         font-size: 17px;
         padding-left: 163px;
         padding-top: 7px;
         padding-bottom: 7px;
         padding-right: 163px;
     }
-    #login .button-play{
+    #login .button-play {
         padding-bottom: 25px;
         padding-top: 25px;
         padding-right: 40px;
         padding-left: 40px;
     }
-    #login i{
+    #login i {
         font-size: 20px;
     }
