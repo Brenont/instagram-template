@@ -189,7 +189,8 @@
 
 @media screen and (min-width:700px) {
     #login .title {
-        font-size: 65px;
+        height: 100px;
+        margin: 60px;
     }
     #login .inputs {
         padding: 17px;
