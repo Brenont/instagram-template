@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    background-color: #fafafa;
 }
 
 /* classe de posicionamento */
@@ -29,10 +28,12 @@
 }
 
 /* estilo da timeline */
-
+#timeline .dad{
+    background-color:#efefef;
+}
 #timeline .user-total {
     padding: 3px 15px;
-    background-color: #fafafa;
+    background-color: #ffffff;
     color: #262626;
     border: solid 1px #efefef;
 }
@@ -57,10 +58,10 @@
 #timeline .img-tl {
     max-width: 670px;
     width: 100%;
-    border: solid 2px #efefef;
 }
 #timeline .div-teste {
     border: solid 1px #efefef;
+    background-color: #ffffff;
 }
 #timeline .icons-4 {
     padding: 7px;
