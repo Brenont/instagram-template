@@ -26,6 +26,8 @@
 .flex-column{
     flex-direction: column;
 }
+
+
 /* estilo da timeline */
 #timeline .user-total{
     padding: 3px 15px;
@@ -104,4 +106,51 @@
        width: 55px;
        height: 55px;
     }
+}
+
+/* login */
+#login{
+    color: #fafafa;
+}
+#login .title{
+    font-size: 45px;
+    margin: 50px;
+    font-family: 'Pacifico', cursive;
+    color: #252323;
+}
+#login .inputs{
+    padding: 17px;
+    padding-left: 37px;
+    padding-right: 37px;
+    margin: 7px;
+    border: solid 3px #efefef;
+    font-size: 13px;
+}
+#login .button-end-input{
+    border-radius: 8px;
+    font-size: 17px;
+    padding-left: 100px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 100px;
+    background-color: #89abd8;
+    color: #fff;
+    border: solid 3px #efefef;
+}
+#login footer{
+    padding-right: 15px;
+    margin: 40px;
+}
+#login .button-play{
+    border-radius: 7px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border: solid 3px #efefef;
+    color: #fff;
+    background-color: #252323;
+}
+#login i{
+    color: #262626;
 }
