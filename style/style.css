@@ -152,10 +152,26 @@
     height: 50px;
     margin: 30px;
 }
-.button-play:focus, .button-end-input:focus,.inputs:focus,{
+.button-play:focus, .button-end-input:focus,.inputs:focus{
     outline: none;
 }
-
+.perfil img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.perfil h1{
+    padding-top: 10px;
+    padding-left: 55px;
+    font-size: 15px;
+}
+.perfil h2{
+    color: rgba(68, 67, 67, 0.425);
+    padding-left: 55px;
+    font-size: 13px;
+    
+}
 @media screen and (min-width:700px) {
     #login .title {
         height: 100px;
@@ -178,95 +194,99 @@
         height: 70px;
     }
 
-    /* story/usuario */
 
-.conteudo {
-    height: 100vh;
-    margin-bottom: 30px;
-    padding: 0;
-    /* top: 60px; */
-}
+/* <!-- ----------CAIXA HISTORIAS----------- --> */
 
-.#ct {
-    position: fixed;
-    top: 78px;
-}
-
-.perfil {
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
+.caixahistori{
+    width: 350px;
+    height: 600px;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
+    flex-direction: column;
+    
+}
+.perfil{
+    display: flex;
     flex-direction: row;
-    height: 62px;
-    -webkit-box-pack: justify;
+    padding-top: 15px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80px;
+    margin: 2px;
+    
+}
+.perfil img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.perfil h1{
+    padding-top: 10px;
+    padding-left: 55px;
+    font-size: 15px;
+}
+.perfil h2{
+    color: rgba(68, 67, 67, 0.425);
+    padding-left: 55px;
+    font-size: 13px;
+    
+}
+
+}
+.historias{
+    width: 100%;
+    height: 300px;
+    margin-top: 10px;
+    border: solid 1px rgba(0, 0, 0, 0.116);
+    border-radius: 4px;
+    background-color: white;
+}
+
+.historias ul{
+    padding-left: 8px;
+    
+}
+
+.historias ul li{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+    
+}
+.historias ul li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.historias h1{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+.HisVT{
+    width: 100%;
+    display: flex;
     justify-content: space-between;
 }
 
-.moldura_perfil{
-    -webkit-box-align: center;
-    align-items: center;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    flex-direction: row;
-    height: 100%;
-    margin-bottom: 12px;
-    max-height: 50px;
-    width: 100%;
-    padding-left: 5px;
+.HisVT h2{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 15px;
+    color: rgba(68, 67, 67, 0.425);
 }
 
-.logo_us{
-    align-self: center;
-    display: block;
-    -webkit-box-flex: 0;
-    flex: none;
-}
-
-.img_logo{
-    position: absolute;
-    top: -5px;
-    left: -5px;
-    width: 60px;
-    height: 60px;
-}
-
-a{
-    color: #000000;
-    text-decoration: none;
-}
-
-.perfil1 {
-    background-color: #fafafa;
-    border-radius: 50%;
-    box-sizing: border-box;
-    display: block;
-    -webkit-box-flex: 0;
-    flex: 0 0 auto;
-    overflow: hidden;
-    position: relative;
-    width: 50px;
-    height: 50px;
-}
-
-._use {
-    cursor: pointer;
-}
-
-.img_usuario {
-    height: 100%;
-    width: 100%;
-}
-
-.subnome {
-    -webkit-box-pack: center;
-    justify-content: center;
-    margin-left: 14px;
-    -webkit-box-orient: vertical;
-    flex-direction: column;
+.HisVT h3{
+    margin-right: 10px;
+    font-size: 13px;
+    padding-top: 14px;
+    
+    
 }
 
 
