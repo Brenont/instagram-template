@@ -26,83 +26,131 @@
 .flex-column {
     flex-direction: column;
 }
+/* ESTILO DA NAV */
+nav{
+    height: 77px;
+    
+    margin: 0 5px 0 5px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+}
+.border-icon{
+    padding-right: 10px;
+    border-right: solid 1px #000;
+    padding: 3px 10px 0 10px;
+}
+#img-logo{
+    height: 30px;
+    padding:5px 0 0 10px;
+}
+.input-buscar{
+    border: solid 1px #dbdbdb;
+    border-radius: 2px;
+    height: 25px;;
+    display: none;
+    text-align: center;
+}
+.icons-font{
+    font-size: 28px;
+}
+.icons-espc{
+    margin: 10px;
+ } 
+
 
 /* estilo da timeline */
-#timeline .dad{
+.dad{
     background-color:#efefef;
+    
 }
-}
-#timeline .user-total{
+.user-total{
     padding: 5px 15px;
     background-color: #ffffff;
     color: #262626;
 }
-#timeline .user-name {
+.user-name {
     padding-left: 7px;
 }
-#timeline div.user-total{
+ div.user-total{
     padding: 5px;   
 }
-#timeline .user-img {
+.user-img {
     max-width: 53px;
     max-height: 53px;
     border-radius: 100%;
     border: solid 1px #efefef;
 }
-#timeline .border-linear {
+.border-linear {
     width: 40px;
     height: 40px;
     /* background-image: linear-gradient(60deg, #ff2, #f06, #90c) */
 }
-#timeline .icon-point {
+.icon-point {
     color: #262626;
     font-size: 15px;
 }
-#timeline .img-tl {
+.img-tl {
     max-width: 670px;
     width: 100%;
 }
-#timeline .div-teste {
+.div-teste {
     background-color: #ffffff;
 }
-#timeline .icons-4 {
+.icons-4 {
     padding: 7px;
     background-color: #fafafa;
     font-size: 23px;
     color: #000000;
 }
-#timeline .icons-3 {
+.icons-3 {
     padding: 1px;
 }
-#timeline .padding-left {
+.padding-left {
     padding-left: 7 px;
 }
-#timeline .comments {
+.comments {
     padding: 5px;
     background-color: #fafafa;
 }
-#timeline b {
+b {
     margin: 3px;
 }
-#timeline.padding {
+.padding {
     padding: 5px;
 }
-#timeline .letra-italica {
+.letra-italica {
     color: #999999;
 }
-#timeline .letra-texto {
+.letra-texto {
     color: #000000;
 }
 @media screen and (min-width:700px) {
-    #timeline{
-        border: solid 1px #efefef;
+    nav{
+        width: 100%;
+    }
+    .input-buscar{
+        display: flex;
+    }
+    .ciaxahistoria{
+        margin: 25px;
+        width: 84%;
+        border: 1px solid #e6e6e6;
+        border-radius: 2px;
+    }
+    #tl{
+        border-radius: 2px;
+        border: 1px solid #e6e6e6;
     }
     .dad {
         display: flex;
-        justify-content: center;
+        flex-direction: column;
+        align-items: center;
     }
     .user-total {
-        width: 640px;
+        width: 660px;
+    }
+    #timeline .user-img {
+        height: 30px;
     }
     .div-teste {
         width: 670px;
@@ -172,7 +220,8 @@
     font-size: 13px;
     
 }
-@media screen and (min-width:700px) {
+
+@media screen and (min-width:700px){
     #login .title {
         height: 100px;
         margin: 60px;
@@ -194,101 +243,29 @@
         height: 70px;
     }
 
-
+}
 /* <!-- ----------CAIXA HISTORIAS----------- --> */
 
-.caixahistori{
-    width: 350px;
-    height: 600px;
+
+.ciaxahistoria{
+    padding: 14px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #e6e6e6;
+    height: 60%;
+    
+}
+.usuarios-stores{
+    height: 50%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     
 }
-.perfil{
-    display: flex;
-    flex-direction: row;
-    padding-top: 15px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 80px;
-    margin: 2px;
-    
-}
-.perfil img{
-    position: absolute;
-    width: 50px;
-    height: 50px;
+.img-stores{
+    max-width: 50px;
+    max-height: 50px;
     border-radius: 100%;
-}
-.perfil h1{
-    padding-top: 10px;
-    padding-left: 55px;
-    font-size: 15px;
-}
-.perfil h2{
-    color: rgba(68, 67, 67, 0.425);
-    padding-left: 55px;
-    font-size: 13px;
-    
-}
-
-}
-.historias{
-    width: 100%;
-    height: 300px;
-    margin-top: 10px;
-    border: solid 1px rgba(0, 0, 0, 0.116);
-    border-radius: 4px;
-    background-color: white;
-}
-
-.historias ul{
-    padding-left: 8px;
-    
-}
-
-.historias ul li{
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
-    
-}
-.historias ul li img{
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-}
-
-.historias h1{
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 15px;
-}
-
-.HisVT{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-}
-
-.HisVT h2{
-    padding-top: 10px;
-    padding-left: 10px;
-    font-size: 15px;
-    color: rgba(68, 67, 67, 0.425);
-}
-
-.HisVT h3{
-    margin-right: 10px;
-    font-size: 13px;
-    padding-top: 14px;
-    
-    
-}
-
-
+    border: solid 3px #efefef;
 }
    
